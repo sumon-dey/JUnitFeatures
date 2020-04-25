@@ -1,6 +1,6 @@
 # JUnit Features
 
-This is a repository which will contain all the features that the Java Unit Testing Framework JUnit5 
+This is a repository which will contain all the features that the Java Unit Testing Framework JUnit4 
 provides. 
 
 ## Getting Started
