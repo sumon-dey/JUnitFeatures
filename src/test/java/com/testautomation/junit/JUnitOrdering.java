@@ -4,7 +4,9 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-/*This will run the JUnit tests in alphabetical order*/
+/*This will run the JUnit tests in alphabetical order. By default, JUnit assumes that all test methods can be executed in
+ * an arbitrary order.*/
+
 // @TestMethodOrder(MethodOrderer.Alphanumeric.class) -> Applicable for JUnit5
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class JUnitOrdering {
