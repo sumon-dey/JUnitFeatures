@@ -16,6 +16,28 @@ dependencies {
    testCompile group: 'junit', name: 'junit', version: '4.13'
 }
 
+// to execute the below task, run the command "gradle clean testFunctional"
+task testFunctional(type: Test) {  
+    useJUnit {
+        includeCategories 'com.testautomation.junit.FunctionalGroupTests1'
+        includeCategories 'com.testautomation.junit.FunctionalGroupTests2'
+        excludeCategories 'com.testautomation.junit.IntegrationTests'
+        excludeCategories 'com.testautomation.junit.SanityTests'
+        testLogging.showStandardStreams=true
+    }
+}
+
+// to execute the below task, run the command "gradle clean testIntegrationSanity"
+task testIntegrationSanity(type: Test) {  
+    useJUnit {
+        includeCategories 'com.testautomation.junit.IntegrationTests'
+        includeCategories 'com.testautomation.junit.SanityTests'
+        excludeCategories 'com.testautomation.junit.FunctionalGroupTests1'
+        excludeCategories 'com.testautomation.junit.FunctionalGroupTests2'
+        testLogging.showStandardStreams=true
+    }
+}
+
 
 
 
