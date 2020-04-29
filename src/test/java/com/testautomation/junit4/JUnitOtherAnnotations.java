@@ -1,6 +1,5 @@
-package com.testautomation.junit;
+package com.testautomation.junit4;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class JUnitOtherAnnotations {

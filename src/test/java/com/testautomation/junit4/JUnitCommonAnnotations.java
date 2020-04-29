@@ -1,4 +1,4 @@
-package com.testautomation.junit;
+package com.testautomation.junit4;
 
 import org.junit.After;
 import org.junit.AfterClass;

@@ -1,6 +1,5 @@
-package com.testautomation.junit;
+package com.testautomation.junit4;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 

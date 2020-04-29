@@ -1,4 +1,4 @@
-package com.testautomation.junit;
+package com.testautomation.junit4;
 
 import java.util.Arrays;
 import java.util.Collection;
