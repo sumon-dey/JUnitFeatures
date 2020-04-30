@@ -1,6 +1,6 @@
 package com.testautomation.junit5;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class JUnit5TestSuiteDemo2 {
 
