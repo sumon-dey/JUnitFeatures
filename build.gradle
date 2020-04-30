@@ -21,6 +21,7 @@ dependencies {
     testCompile("org.junit.jupiter:junit-jupiter-api:5.2.0")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:5.2.0")
     testRuntime("org.junit.platform:junit-platform-runner:1.5.2")
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.2.0'
     
     // to run JUnit 4 tests:
     testCompile("junit:junit:4.12")
