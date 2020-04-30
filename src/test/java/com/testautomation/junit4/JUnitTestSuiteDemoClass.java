@@ -1,12 +1,12 @@
-package com.testautomation.junit5;
+package com.testautomation.junit4;
 
-public class JUnit5TestSuiteDemoClass {
+public class JUnitTestSuiteDemoClass {
 
 	private String message;
 
 	// Constructor
 	// @param message to be printed
-	public JUnit5TestSuiteDemoClass(String message) {
+	public JUnitTestSuiteDemoClass(String message) {
 		this.message = message;
 	}
 

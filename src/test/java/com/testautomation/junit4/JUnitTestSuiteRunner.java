@@ -1,13 +1,13 @@
-package com.testautomation.junit5;
+package com.testautomation.junit4;
 
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
-public class JUnit5TestSuiteRunner {
+public class JUnitTestSuiteRunner {
 
 	public static void main(String[] args) {
-		Result result = JUnitCore.runClasses(JUnit5TestSuite.class);
+		Result result = JUnitCore.runClasses(JUnitTestSuite.class);
 		for (Failure failure : result.getFailures()) {
 			System.out.println(failure.toString());
 		}

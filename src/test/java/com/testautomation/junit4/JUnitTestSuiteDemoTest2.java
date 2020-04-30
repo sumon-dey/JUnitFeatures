@@ -1,12 +1,12 @@
-package com.testautomation.junit5;
+package com.testautomation.junit4;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class JUnit5TestSuiteDemoTest2 {
+public class JUnitTestSuiteDemoTest2 {
 
 	String message = "Sam";
-	JUnit5TestSuiteDemoClass messageUtil = new JUnit5TestSuiteDemoClass(message);
+	JUnitTestSuiteDemoClass messageUtil = new JUnitTestSuiteDemoClass(message);
 
 	@Test
 	public void testSalutationMessage() {
