@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
 
-public class JUnit5Parameterization {
+public class JUnit5Parameterization1 {
 
 	@ParameterizedTest
 	@MethodSource(value = "data")
