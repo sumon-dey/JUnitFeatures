@@ -8,7 +8,13 @@ public class JUnit5DisablingTests {
 
 	/* The @Disabled annotation allows to statically ignore a test. */
 	@Disabled
-	public void disabledMethod() {
+	public void disabledMethod1() {
+		System.out.println("This method will not get executed.");
+	}
+
+	/* The @Disabled annotation allows to statically ignore a test. */
+	@Disabled("Due to some issue this test has been disabled")
+	public void disabledMethod2() {
 		System.out.println("This method will not get executed.");
 	}
 
